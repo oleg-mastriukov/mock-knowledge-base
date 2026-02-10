@@ -1,0 +1,163 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Mock Knowledge Base – Product Family Articles</title>
+  <style>
+    body { font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; margin: 24px; line-height: 1.45; }
+    header { max-width: 900px; }
+    .tag { display: inline-block; padding: 2px 10px; border: 1px solid #ccc; border-radius: 999px; font-size: 12px; margin-right: 8px; margin-bottom: 6px; }
+    .container { max-width: 900px; }
+    article { border: 1px solid #e5e5e5; border-radius: 12px; padding: 16px 18px; margin: 14px 0; }
+    h2 { margin: 0 0 8px; font-size: 18px; }
+    h3 { margin: 14px 0 6px; font-size: 14px; }
+    ul { margin: 8px 0 0 18px; }
+    .meta { color: #555; font-size: 13px; margin-bottom: 10px; }
+    .note { background: #fafafa; border-left: 3px solid #ddd; padding: 10px 12px; margin-top: 10px; }
+    footer { margin-top: 22px; color: #666; font-size: 12px; }
+  </style>
+</head>
+<body>
+  <header class="container">
+    <h1>Mock Knowledge Base</h1>
+    <p>Customer-facing help articles. Each article lists the <strong>product family</strong> (or families) it applies to, so an agent can search and retrieve relevant guidance.</p>
+  </header>
+
+  <main class="container">
+
+    <!-- Multi-family: Delivery splits -->
+    <article id="multi-split-deliveries">
+      <div class="meta">
+        <span class="tag">Home &amp; Living Textiles</span>
+        <span class="tag">Kids Essentials</span>
+      </div>
+      <h2>Why you may receive multiple deliveries for one order</h2>
+      <p>Some items ship from different locations or at different times. That’s why your order can arrive in separate deliveries.</p>
+      <h3>What this means for you</h3>
+      <ul>
+        <li>You may receive more than one package, even if you placed a single order.</li>
+        <li>If one delivery is still on the way, the remaining items may be included there.</li>
+      </ul>
+      <div class="note">
+        <strong>Tip:</strong> If you’re missing an item, check whether another delivery for your order is still in transit.
+      </div>
+    </article>
+
+    <!-- Home & Living Textiles -->
+    <article id="textiles-leadtime">
+      <div class="meta">
+        <span class="tag">Home &amp; Living Textiles</span>
+        <span class="tag">Delivery &amp; Timing</span>
+      </div>
+      <h2>Delivery time for made-to-order home textiles</h2>
+      <p>Some home textiles are prepared specifically for you (for example, custom sizing or special finishes). That means delivery can take longer than standard items.</p>
+      <h3>What to expect</h3>
+      <ul>
+        <li>If your order contains both standard and made-to-order items, you may receive <strong>multiple deliveries</strong>.</li>
+        <li>You’ll receive an update as soon as your delivery is on its way.</li>
+      </ul>
+    </article>
+
+    <!-- Multi-family: Tracking availability -->
+    <article id="multi-tracking">
+      <div class="meta">
+        <span class="tag">Home &amp; Living Textiles</span>
+        <span class="tag">Kids Essentials</span>
+      </div>
+      <h2>Tracking your delivery</h2>
+      <p>If tracking is available for your delivery method, you’ll receive a tracking link once the package is shipped.</p>
+      <h3>If you don’t see a tracking link</h3>
+      <ul>
+        <li>Your delivery may not have shipped yet.</li>
+        <li>Your delivery method may not provide tracking.</li>
+        <li>Some orders are split into multiple deliveries—one may have tracking while another does not.</li>
+      </ul>
+    </article>
+
+    <!-- Kids Essentials -->
+    <article id="kids-damaged">
+      <div class="meta">
+        <span class="tag">Kids Essentials</span>
+        <span class="tag">Delivery Issues</span>
+      </div>
+      <h2>My item arrived damaged—what should I do?</h2>
+      <p>Sorry to hear that. If your item arrived damaged, reply to your email with:</p>
+      <ul>
+        <li>a short description of the damage,</li>
+        <li>a photo of the item and the packaging (if possible).</li>
+      </ul>
+      <p>We’ll review it and let you know the next steps.</p>
+    </article>
+
+    <!-- Food & Fresh Pickup -->
+    <article id="fresh-pickup">
+      <div class="meta">
+        <span class="tag">Food &amp; Fresh Pickup</span>
+      </div>
+      <h2>Store pickup: when and how your fresh order is ready</h2>
+      <p>Fresh orders are prepared for pickup within the time window shown in your order details.</p>
+      <h3>Pickup reminders</h3>
+      <ul>
+        <li>Bring your order confirmation (digital is fine).</li>
+        <li>Check the pickup location and time window before you go.</li>
+      </ul>
+      <div class="note">
+        <strong>Note:</strong> For store pickup deliveries, tracking links may not be available.
+      </div>
+    </article>
+
+    <!-- Multi-family: Missing item guidance -->
+    <article id="multi-missing-item">
+      <div class="meta">
+        <span class="tag">Home &amp; Living Textiles</span>
+        <span class="tag">Kids Essentials</span>
+        <span class="tag">Food &amp; Fresh Pickup</span>
+      </div>
+      <h2>I’m missing an item from my order—what should I do?</h2>
+      <p>If you’re missing an item, it’s often because your order is split into multiple deliveries.</p>
+      <h3>Quick checklist</h3>
+      <ul>
+        <li>Check whether another delivery for your order is still on the way.</li>
+        <li>Compare the items you received with the items in your order confirmation.</li>
+        <li>If everything shows as delivered but the item is still missing, reply with the item name and quantity.</li>
+      </ul>
+    </article>
+
+    <!-- Food & Fresh Pickup: Missing item specifics -->
+    <article id="fresh-missing">
+      <div class="meta">
+        <span class="tag">Food &amp; Fresh Pickup</span>
+      </div>
+      <h2>I’m missing an item from my pickup order</h2>
+      <p>If you’re missing an item from a store pickup order, check your receipt/confirmation first to confirm the item was included in the order.</p>
+      <h3>Next steps</h3>
+      <ul>
+        <li>Reply to your email with the missing item name and quantity.</li>
+        <li>We’ll investigate and help resolve it.</li>
+      </ul>
+    </article>
+
+    <!-- Multi-family: "Not received" after delivered -->
+    <article id="multi-not-received-delivered">
+      <div class="meta">
+        <span class="tag">Home &amp; Living Textiles</span>
+        <span class="tag">Kids Essentials</span>
+      </div>
+      <h2>My delivery is marked as delivered, but I didn’t receive it</h2>
+      <p>Sometimes a package is delivered to a safe place or a neighbor. If your delivery is marked as delivered but you can’t find it:</p>
+      <ul>
+        <li>Check around your home (front door, back door, porch, shed).</li>
+        <li>Ask neighbors if they accepted the delivery.</li>
+        <li>Check if anyone else at your address received it.</li>
+      </ul>
+      <p>If you still can’t find it, reply to your email and we’ll help you with next steps.</p>
+    </article>
+
+  </main>
+
+  <footer class="container">
+    <p>This is mock content for demos. Product families: Home &amp; Living Textiles, Kids Essentials, Food &amp; Fresh Pickup.</p>
+  </footer>
+</body>
+</html>
